@@ -1,0 +1,157 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .container {
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.menu ul li .active a {
+    color: #E60004;
+}
+
+.banner {
+    width: 100%;
+    height: 395px;
+    background-image: url('../images/banner.png');
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.banner .container {
+    width: 787px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 63px;
+}
+
+.banner p {
+    font-size: 20px;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .row h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #3b3939;
+    margin-bottom: 38px;
+}
+
+.content .product-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.complete_menu_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.complete_menu {
+    background-color: #272727;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #272727;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer .container {
+    width: 100%;
+    max-width: 1180px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .social_networs {
+    display: flex;
+}
+
+.footer .social_networs img {
+    margin-left: 15px;
+}
+
+/*
+    Daqui pra frente, todos os Atributos se aplicam as páginas internas
+*/
+
+.title_internal_page {
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content_internal_page {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content_internal_page p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content_internal_page h3 {
+    color: #E60004;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
